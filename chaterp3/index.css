@@ -1,0 +1,47 @@
+body{
+    background-color: #1BBC9B;
+}
+
+.login-form{
+    padding: 20px;
+    background-color: #EEEFF1;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+form{
+    text-align: center;
+}
+
+.text-field{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.submit-btn{
+    width: 300px;
+    height: 50px;
+    background-color: #1BBC9B;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+a{
+    color: gray;
+}
+
+.links{
+   
+    text-align: center;
+}
