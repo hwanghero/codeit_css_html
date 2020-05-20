@@ -1,0 +1,41 @@
+.img-container{
+    text-align: center;
+}
+
+.img-container img{
+    width: 165px;
+    height: 58px;
+    margin-top: 80px;
+}
+
+ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+ul li{
+    float: left;
+    font-family: Helvetica;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+img{
+    width: 90%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #58595B;
+}
+
+iframe{
+    
+}
