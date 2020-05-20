@@ -1,0 +1,76 @@
+@font-face{
+  src: url("../fonts/BMJUA_otf.otf");
+  font-family: "test";
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "test";
+  color: #57585A;
+
+}
+
+body{
+  background-color: #F0E9D9;
+}
+
+.body_css{
+    text-align: center;
+}
+
+h1{
+  margin-top: 75px;
+  margin-bottom: 30px;
+  font-size: 64px;
+}
+
+h2{
+  margin-bottom: 75px;
+  font-size: 32px;
+}
+
+.menu{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin: -75px 0 0 -150px;
+  
+}
+
+.chicken, .sushi, .hamburger, .bibimbap{
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+p{
+  display: block;
+  margin: 0;
+  padding-top: 20px;
+  font-size: 32px;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  color: #1E1EF0;
+  padding-bottom: 20px;
+}
+
+span{
+  display: block;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
