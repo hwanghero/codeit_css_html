@@ -1,0 +1,38 @@
+.quote {
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-family: 'Nanum Pen Script', cursive;
+  margin-top: 75px;
+}
+
+.figure {
+  margin-top: 50px;
+}
+
+/*
+이곳에 코드를 작성하세요.
+*/
+
+b{
+  font-size: 96px;
+}
+
+/*first child*/
+b:nth-child(1){
+  position: relative;
+  top: 20px;
+}
+/* last child 안됨 (fix: 자식태그를 불러오기에 마지막인 div를 불러옴) */
+b:nth-child(3){
+  position: relative;
+  top: 80px;
+}
+
+#text{
+  font-size: 100px;
+}
+
+span{
+  margin: 15px;
+}
