@@ -1,0 +1,21 @@
+
+/*
+이곳에 코드를 작성하세요.
+*/
+
+.env-div{
+  position: relative;
+  display: inline-block;
+}
+
+.address{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.stamp{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}

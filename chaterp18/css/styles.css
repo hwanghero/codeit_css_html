@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+/* navbar */
+nav{
+  background-color: white;
+  height: 60px;
+}
+
+nav img{
+  height: 20px;
+  margin-left: 30px;
+}
+
+nav a{
+  line-height: 60px;
+}
+
+#menu{
+  list-style: none;
+  float: right;
+  padding-right: 30px;
+  margin: 0px;
+}
+
+#menu li{
+  float: left;
+  line-height: 60px;
+}
+
+#menu li a{
+  display: block;
+  font-family: "Helvetica";
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+#menu li a:hover{
+  background-color: #eeeeee;
+}
+/* hero header */
+
+/* products */
+
+/* footer */
