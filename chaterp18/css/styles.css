@@ -9,24 +9,30 @@ body {
 }
 
 /* navbar */
+
 nav{
   background-color: white;
   height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+
 }
 
 nav img{
-  height: 20px;
-  margin-left: 30px;
+  height: 30%;
 }
 
-nav a{
+nav #logo{
   line-height: 60px;
+}
+
+nav #logo img{
+  vertical-align: middle;
 }
 
 #menu{
   list-style: none;
   float: right;
-  padding-right: 30px;
   margin: 0px;
 }
 
@@ -42,13 +48,84 @@ nav a{
   font-weight: bold;
   text-decoration: none;
   color: black;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #menu li a:hover{
   background-color: #eeeeee;
 }
+
 /* hero header */
+
+#mainimg{
+  height: 450px;
+  background-image: url("../images/hero_header.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 /* products */
 
+#itemlist{
+  text-align: center;
+  margin-top: 60px;
+}
+
+#itemlist h1{
+  font-family: 'Helvetica';
+  font-size: 24px;
+  color: #545454;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.grid-content{
+  display:inline-block;
+  width: 840px;
+
+}
+
+.float{
+  color: #545454;
+  text-decoration: none;
+  float: left;
+  margin-bottom: 80px;
+  margin-left: 20px;
+}
+
+.float img{
+  width: 255px;
+}
+
+.float:last-child{
+  margin-bottom: 120px;
+}
+
+.p1, .p2{
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.p1{
+  margin-top: 20px;
+}
+
+.p2{
+  margin-top: 4px;
+}
+
 /* footer */
+
+.bottomimg img{
+  height: 20px;
+  margin-left: 20px;
+  margin-bottom: 80px;
+
+}
+
+.bottomimg{
+  width: 100%;
+  float: left;
+}

@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#navbar{
+  height: 60px;
+  background-color: #353535;
+  padding-left: 50px;
+}
+
+#navbar h1{
+  display: inline-block;
+  margin: 0px;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  vertical-align: middle;
+}
+
+#helper{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+/* 여기부터 이미지 및 홍보부분 */
+
+.main_img{
+  width: 100%;
+  height: 350px;
+  background-image: url("../images/main_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.main_contents{
+  position:relative;
+  display: inline-block;
+  width: 100%;
+  height: 320px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.main_portfolio{
+  font-weight: 800;
+  color: #4a4a4a;
+  margin: 0px;
+}
+
+.main_title{
+  font-size: 20px;
+  color: #1b1b1b;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main_sub{
+  font-size: 16px;
+  font-weight: 100;
+  color: #7a7a7a;
+}
+
+.img1{
+  width: 100%;
+  height: 385px;
+  background-image: url("../images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.center{
+  position:absolute; 
+  top:50%;
+  transform:translate(0%, -50%);
+}
+
+.img2{
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position:relative;
+}
+
+.img2_border{
+  padding: 1px 40px;
+  border: 4px solid white;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 53px;
+  position:absolute; 
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.img3{
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/img3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.float{
+  float: left;
+}
+
+@media (min-width: 768px){
+  .main_img{
+    height: 562px;
+    width: 100%;
+  }
+  .main_contents{
+    height: 282px;
+    width: 100%;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  .img1{
+    height: 360px;
+    width: 50%
+  }
+  .img2{
+    height: 180px;
+    width: 50%;
+  }
+  .img3{
+    height: 180px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px){
+  .main_img{
+    height: 700px;
+    width: 50%;
+  }
+  .main_contents{
+    height: 350px;
+    width: 50%;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  .img1{
+    width: 25%;
+    height: 350px;
+  }
+  .img2{
+    width: 25%;
+    height: 175px;
+  }
+  .img3{
+    width: 25%;
+    height: 175px;
+  }
+}
