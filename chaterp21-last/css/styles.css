@@ -1,6 +1,7 @@
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
+
 /* 네비게이션 부분 */
 
 .navbar {
@@ -13,28 +14,15 @@ body {
   color: #545454;
 }
 
-.left_menu {
-  list-style: none;
-  float: left;
-  margin: 0px;
+.navbar-toggler {
+  width: 30px !important;
+  height: 30px !important;
   padding: 0px;
 }
 
-.left_menu li {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.right_menu {
-  float: right;
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-.right_menu li {
-  float: right;
-  margin-left: 10px;
+.navbar-toggler-icon {
+  width: 20px !important;
+  height: 25px !important;
 }
 
 /* 메인 사진 */
@@ -42,6 +30,31 @@ body {
 .carousel-item img {
   height: 600px;
   object-fit: cover;
+}
+
+.carousel-caption {
+  color: white;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.carousel-caption h5 {
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+
+.carousel-caption p {
+  font-size: 22px;
+  font-weight: 200;
+  padding: 0px;
+  margin-bottom: 48px;
+}
+
+.carousel-caption .btn-primary {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #5900e7;
 }
 
 .carousel-item #guitar {
@@ -54,4 +67,68 @@ body {
 
 .carousel-item #cooking {
   object-position: center center;
+}
+
+.alert {
+  margin-top: 50px;
+  margin-bottom: 16px;
+}
+
+.container .row .col {
+  float: left;
+  width: 285px !important;
+  height: 370px !important;
+}
+
+.container .row .col .img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+}
+
+.container .row .col .skill-1 {
+  background-image: url("../images/course1.jpg");
+}
+.container .row .col .skill-2 {
+  background-image: url("../images/course2.jpg");
+}
+.container .row .col .skill-3 {
+  background-image: url("../images/course3.jpg");
+}
+.container .row .col .skill-4 {
+  background-image: url("../images/course4.jpg");
+}
+.container .row .col .skill-5 {
+  background-image: url("../images/course5.jpg");
+}
+.container .row .col .skill-6 {
+  background-image: url("../images/course6.jpg");
+}
+.container .row .col .skill-7 {
+  background-image: url("../images/course7.jpg");
+}
+.container .row .col .skill-8 {
+  background-image: url("../images/course8.jpg");
+}
+
+.container .row .col .contents {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.container .row .col .contents .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.container .row .col .contents .detail img {
+  height: 20px;
+}
+
+.container .row .col:last-child {
+  margin-bottom: 70px;
 }
